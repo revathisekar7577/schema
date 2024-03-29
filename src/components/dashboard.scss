@@ -1,0 +1,95 @@
+
+
+.heading-view{
+    height: 50px;
+    color: white;
+    background-color: #35BBCA;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.rounded-border{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+
+
+.save-btn{
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.grey-overlay{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.24);
+    top:0;
+    left:0;
+    right: 0;
+    position: fixed;
+}
+
+
+
+.sidebar-view{
+    width: 330px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: white;
+    height: 100%;
+    animation: 0.3s mymove ease;
+    
+    .heading-view{
+        height: 50px;
+        color: white;
+        background-color: #35BBCA;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        font-size: 17px;
+    }
+    .footer-view{
+        position: fixed;
+        bottom: 0;
+        background-color: #f4f0ec;
+        height: 50px;
+        padding: 15px;
+        width: 100%;
+    }
+    .save-seg-btn{
+        background-color: #32a57c;
+        color: white;
+        padding: 6px 10px;
+        border-radius:4px;
+        margin-right: 15px;
+    } 
+    .cancel-btn{
+        background-color: white;
+        color: red;
+        padding: 6px;
+        border-radius:4px;
+    }  
+    .scehma-view{
+        border: 1px solid blue;
+        padding: 5px 10px;
+    }
+    .add-to-schema{
+        margin-left:30px;
+        margin-top: 15px;
+        color:#35BBCA
+
+    }
+}
+
+@keyframes  mymove{
+    0%   { right: -100px; }
+    100% { right: 0px; }
+}
+

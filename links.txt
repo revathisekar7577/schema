@@ -1,1 +1,0 @@
-https://github.com/piyush-eon/frontend-interview-questions/blob/master/reactjs-interview-questions/grid-sequence/src/App.js
